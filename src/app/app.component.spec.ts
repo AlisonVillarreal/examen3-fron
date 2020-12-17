@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'exa3-frontend-diego-alor-app'`, () => {
+  it(`should have as title 'exa3-frontend-villarreal-alison-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('exa3-frontend-diego-alor-app');
+    expect(app.title).toEqual('exa3-frontend-villarreal-alison-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('exa3-frontend-diego-alor-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('exa3-frontend-villarreal-alison-app app is running!');
   });
 });

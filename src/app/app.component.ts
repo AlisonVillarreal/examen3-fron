@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'exa3-frontend-diego-alor-app';
+  title = 'exa3-frontend-villarreal-alison-app';
 }
